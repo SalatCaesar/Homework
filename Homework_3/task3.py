@@ -3,6 +3,9 @@
 
 def even_sum(lst):
     # Здесь пишем код
+    l = lst[0::2]
+    sum_list = sum(l)
+    print(sum_list)
     return sum_list
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
