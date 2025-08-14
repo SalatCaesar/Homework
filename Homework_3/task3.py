@@ -3,8 +3,11 @@
 
 def even_sum(lst):
     # Здесь пишем код
-    l = lst[0::2]
-    sum_list = sum(l)
+    new_lst = lst.copy()
+    del new_lst[1::2]
+    sum_list = sum(new_lst)
+    print(lst)
+    print(new_lst)
     print(sum_list)
     return sum_list
 
