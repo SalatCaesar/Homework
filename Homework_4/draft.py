@@ -39,17 +39,33 @@ print(w2)
 
 print()
 
-num = 146
+num = 999
 strnum = str(num)
 v = 1
-for i in strnum:
-    v *= int(i)
-print(v)
+p = None
+z = 0
+if len(strnum) > 1:
+    while p != 1:
+        for i in strnum:
+            v *= int(i)
+        p = (len(str(v)))
+        strnum = str(v)
+        z = z + 1
+        v = 1
+else:
+    z = 0
+print(z)
+
 print()
 
-p = 5
-while p != 1:
-    for i in strnum:
-        v *= int(i)
-    print(v)
-    p = p - 1
+n = 7   # Можно попоробовать удалять элемент с индексом, а потом создавать новый список начиная с элемента индекс +1
+krug = list(range(1,n+1))
+print(krug)
+
+
+my_list = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+start_index = 2  # Начинаем с третьего элемента (индекс 2)
+
+for i in range(len(my_list)):
+    index = (start_index + i) % len(my_list)
+    print(my_list[index])
