@@ -12,6 +12,7 @@ else:
         else:
             print('Обычный')
 
+print()
 
 q1 = [
     [[1,2,4], [5,6,7]],
@@ -26,6 +27,8 @@ for w1 in q1:
 t1 = sorted(t1)
 print(t1)
 
+print()
+
 q2 = 12345
 q2 = str(q2)
 w2 = 0
@@ -33,3 +36,20 @@ print(type(q2))
 for i in q2:
     w2 += int(i)
 print(w2)
+
+print()
+
+num = 146
+strnum = str(num)
+v = 1
+for i in strnum:
+    v *= int(i)
+print(v)
+print()
+
+p = 5
+while p != 1:
+    for i in strnum:
+        v *= int(i)
+    print(v)
+    p = p - 1
