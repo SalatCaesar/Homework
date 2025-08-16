@@ -4,6 +4,11 @@
 
 def move_zeros(lst):
     # Здесь нужно написать код
+    p = lst.count(0)
+    for i in range(p):
+        lst.remove(0)
+    for i in range(p):
+        lst.append(0)
     return lst
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
