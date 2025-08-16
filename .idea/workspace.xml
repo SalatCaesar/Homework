@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f765e00-1775-4cac-bddc-d39be5cc8762" name="Changes" comment="Задание 4.&#10;4/7 решено">
+    <list default="true" id="7f765e00-1775-4cac-bddc-d39be5cc8762" name="Changes" comment="Задание 4.&#10;5/7 решено">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_4/draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_4/draft.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_4/draft2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_4/draft2.py" afterDir="false" />
@@ -188,7 +188,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755335288676</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Задание 4.&#10;4/7 решено">
+      <option name="closed" value="true" />
+      <created>1755340056605</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1755340056605</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Задание 4.&#10;5/7 решено">
+      <option name="closed" value="true" />
+      <created>1755340258593</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1755340258593</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,6 +214,7 @@
     <MESSAGE value="Задание 4.&#10;0/7 решено" />
     <MESSAGE value="Homework 4.&#10;4/7" />
     <MESSAGE value="Задание 4.&#10;4/7 решено" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 4.&#10;4/7 решено" />
+    <MESSAGE value="Задание 4.&#10;5/7 решено" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 4.&#10;5/7 решено" />
   </component>
 </project>
