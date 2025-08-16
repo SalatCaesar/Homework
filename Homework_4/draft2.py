@@ -1,26 +1,7 @@
-if h >= k:
-    while i > k:
-        nlst += lst[k:]
-        nlst += lst [:k]
-        del nlst[-1]
-        lst = nlst
-        nlst = []
-        i = int(len(lst))
-    while i2 > 1:
-        nlst += lst[k%i:]
-        nlst += lst[:k%i]
-        del nlst[-1]
-        lst = nlst
-        nlst = []
-        i = len(range(len(lst)))
-        i2 = len(range(len(lst)))
-else:
-    while i2 > 1:
-        nlst += lst[k % i:]
-        nlst += lst[:k % i]
-        del nlst[-1]
-        lst = nlst
-        print(lst)
-        nlst = []
-        i = len(range(len(lst)))
-        i2 = len(range(len(lst)))
+n = 7
+k = 3
+res = 0
+for i in range(1, n + 1):
+    res = (res + k) % i
+    print(res)
+print(res+1)

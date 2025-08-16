@@ -84,7 +84,6 @@ i2 = len(range(len(lst)))
 if k == 1:
     print(str(lst[-1]))
 else:
-    if h >= k:
         while i > k:
             nlst += lst[k:]
             nlst += lst[:k]
@@ -100,14 +99,5 @@ else:
             nlst = []
             i = len(range(len(lst)))
             i2 = len(range(len(lst)))
-    else:
-        while i2 > 1:
-            nlst += lst[k % i:]
-            nlst += lst[:k % i]
-            del nlst[-1]
-            lst = nlst
-            nlst = []
-            i = len(range(len(lst)))
-            i2 = len(range(len(lst)))
-    print(str(lst))
+        print(str(lst))
   ## Вышла какая-то шляпа. Если существует говнокод, то это он. Но это работает!!!!!
