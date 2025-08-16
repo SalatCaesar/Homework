@@ -41,6 +41,7 @@ def josephus_task(num_people, kill_num):
             i2 = len(range(len(lst)))
         survivor = int(str(lst[0]))
     return survivor
+# Вышла какая-то фигня
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
