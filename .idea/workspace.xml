@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f765e00-1775-4cac-bddc-d39be5cc8762" name="Changes" comment="Задание 4.&#10;6/7 решено">
+    <list default="true" id="7f765e00-1775-4cac-bddc-d39be5cc8762" name="Changes" comment="Задание 4.&#10;7/7 решено">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_4/draft2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_4/draft2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_4/task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_4/task6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_4/draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_4/draft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_4/draft2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_4/task_with_star.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_4/task_with_star.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +28,12 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:SalatCaesar/Homework.git",
-    "accountId": "be8eaff9-4320-4aee-ae52-85ccad8351c5"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:SalatCaesar/Homework.git&quot;,
+    &quot;accountId&quot;: &quot;be8eaff9-4320-4aee-ae52-85ccad8351c5&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -59,6 +60,7 @@
     "Python.task5.executor": "Run",
     "Python.task6.executor": "Run",
     "Python.task7.executor": "Run",
+    "Python.task_with_star.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -237,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755372168051</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Задание 4.&#10;7/7 решено">
+      <option name="closed" value="true" />
+      <created>1755376261036</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1755376261036</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,6 +259,7 @@
     <MESSAGE value="Задание 4.&#10;4/7 решено" />
     <MESSAGE value="Задание 4.&#10;5/7 решено" />
     <MESSAGE value="Задание 4.&#10;6/7 решено" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 4.&#10;6/7 решено" />
+    <MESSAGE value="Задание 4.&#10;7/7 решено" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 4.&#10;7/7 решено" />
   </component>
 </project>
