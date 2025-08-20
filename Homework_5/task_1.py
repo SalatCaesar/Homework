@@ -8,6 +8,7 @@
 
 def letter_stat(our_str):
     # Здесь нужно написать код
+    letters_dict = ({i:our_str.count(i) for i in [*our_str]})
     return letters_dict
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
