@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f765e00-1775-4cac-bddc-d39be5cc8762" name="Changes" comment="Homework 4.&#10;4/7">
-      <change afterPath="$PROJECT_DIR$/Homework_5/draft_5.py" afterDir="false" />
+    <list default="true" id="7f765e00-1775-4cac-bddc-d39be5cc8762" name="Changes" comment="Homework 5.&#10;3/4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_5/task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_5/task_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_5/task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_5/task_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_5/task_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_5/task_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_4/draft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_5/draft_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_5/draft_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_5/task_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_5/task_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_5/task_with_star.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_5/task_with_star.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +64,7 @@
     "Python.task7.executor": "Run",
     "Python.task_1.executor": "Run",
     "Python.task_2.executor": "Run",
+    "Python.task_3.executor": "Run",
     "Python.task_4.executor": "Run",
     "Python.task_with_star.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -287,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755456702246</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Homework 5.&#10;3/4">
+      <option name="closed" value="true" />
+      <created>1755698412477</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1755698412477</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -302,6 +309,7 @@
     <MESSAGE value="Задание 4.&#10;7/7 решено" />
     <MESSAGE value="Задание 4.&#10;7/7 решено&#10;Со звёздочкой решено" />
     <MESSAGE value="Задания для лекций" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задания для лекций" />
+    <MESSAGE value="Homework 5.&#10;3/4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 5.&#10;3/4" />
   </component>
 </project>

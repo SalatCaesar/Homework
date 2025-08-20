@@ -12,7 +12,7 @@
 
 def to_roman(val):
     # Здесь нужно написать код
-    return roman_str
+    return '\n'.join(roman_str
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
