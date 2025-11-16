@@ -21,29 +21,7 @@
 def everything_for_your_cat(cats_data):
     # Здесь нужно написать код
     # Создаем словарь для группировки данных по владельцам
-    owners_dict = {}
-
-    # Заполняем словарь данными
-    for cat_name, age, first_name, last_name in cats_data:
-        owner_key = (first_name, last_name)
-        if owner_key not in owners_dict:
-            owners_dict[owner_key] = []
-        owners_dict[owner_key].append((cat_name, age))
-    print(owners_dict)
-    # Формируем результат
-    our_str = []
-    for (first_name, last_name), cats in owners_dict.items():
-        # Формируем строку с информацией о котах
-        cats_info = []
-        for cat_name, age in cats:
-            cats_info.append(f"{cat_name}, {age}")
-
-        # Добавляем строку для текущего владельца
-        our_str.append(f"{first_name} {last_name}: {'; '.join(cats_info)}")
-
-    # Объединяем все строки с переносами
-    our_str = ('\n'.join(our_str))
-    return our_str
+   
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
 
