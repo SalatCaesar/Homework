@@ -7,7 +7,8 @@
     <list default="true" id="7f765e00-1775-4cac-bddc-d39be5cc8762" name="Changes" comment="Homework 5.&#10;3/4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework_7/task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_7/task_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/draft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_7/task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_7/task_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_7/draft_task_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +31,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:/SalatCaesar/Homework.git&quot;,
-    &quot;accountId&quot;: &quot;bd2295c1-d51d-4e02-88f7-19733e905878&quot;
+    &quot;url&quot;: &quot;git@github.com:SalatCaesar/Homework.git&quot;,
+    &quot;accountId&quot;: &quot;be8eaff9-4320-4aee-ae52-85ccad8351c5&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -53,6 +54,7 @@
     &quot;Python.draft2.executor&quot;: &quot;Run&quot;,
     &quot;Python.draft3.executor&quot;: &quot;Run&quot;,
     &quot;Python.draft_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.draft_task_2.executor&quot;: &quot;Run&quot;,
     &quot;Python.task1.executor&quot;: &quot;Run&quot;,
     &quot;Python.task2.executor&quot;: &quot;Run&quot;,
     &quot;Python.task3.executor&quot;: &quot;Debug&quot;,
@@ -70,18 +72,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Autotest/Homework/Homework_4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Autotest/Homework/Homework_7&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Autotest\Homework\Homework_7" />
       <recent name="D:\Autotest\Homework\Homework_4" />
       <recent name="D:\Autotest\Homework" />
       <recent name="C:\Users\ao.strutynskiy\Desktop\Autotest\Homework\Homework_4" />
       <recent name="D:\Autotest\Homework\Homework_3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Autotest\Homework\Homework_7" />
       <recent name="C:\Users\ao.strutynskiy\Desktop\Autotest\Homework\Homework_4" />
       <recent name="D:\Autotest\Homework" />
       <recent name="D:\Autotest\Homework\Homework_3" />
@@ -302,7 +306,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763569058766</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Homework 5.&#10;3/4">
+      <option name="closed" value="true" />
+      <created>1763576062755</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1763576062755</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Homework 5.&#10;3/4">
+      <option name="closed" value="true" />
+      <created>1763576071851</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1763576071851</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

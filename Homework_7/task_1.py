@@ -18,9 +18,9 @@ class Segment:
         c = ((self.b[0]-self.a[0])**2+(self.b[1]-self.a[1])**2)**(1/2)
         return round(c, 2)
     def x_axis_intersection(self):
-        return (self.a[0] * self.b[0] <= 0)
-    def y_axis_intersection(self):
         return (self.a[1] * self.b[1] <= 0)
+    def y_axis_intersection(self):
+        return (self.a[0] * self.b[0] <= 0)
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
 
