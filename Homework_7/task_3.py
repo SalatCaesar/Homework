@@ -50,8 +50,8 @@ class Bus(PublicTransport):
 
     @park.setter
     def park(self, number):
-        if 9999 >= number >= 1000:
-            self.__park = number
+        assert number <= 9999 and number >= 1000
+        self.__park = number
 
 class Tram(PublicTransport):
     def __init__(self, brand, engine_power, year, color, max_speed, route, path, fare):
