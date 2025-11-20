@@ -1,5 +1,7 @@
-Можно улучшить:
-1.
+# Можно улучшить:
+# 1. Добавить инпут
+# 2. Убрать импорт коллекции и сделать через for
+# 3. Фамилию и имя переделать что ли
 from collections import Counter
 class PersonInfo:
     def __init__(self, fio, age, *deps):
