@@ -1,3 +1,6 @@
+# Можно улучшить:
+# 1. Заменить импорт roman на функцию, это сторонняя библиотека, лучше без неё
+# 2. Проверку на палиндром переписать, можно уменьшить количество строк
 import roman
 
 class RomanNums:
@@ -8,8 +11,7 @@ class RomanNums:
         return roman.fromRoman(self.nums)
 
     def is_palindrome(self):
-        def is_palindrome(self):
-            a = str(roman.fromRoman(self.nums))
-            b = str(roman.fromRoman(self.nums))
-            c = b[::-1]
-            return a == c
+        a = str(roman.fromRoman(self.nums))
+        b = str(roman.fromRoman(self.nums))
+        c = b[::-1]
+        return a == c
