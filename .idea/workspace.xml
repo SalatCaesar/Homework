@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f765e00-1775-4cac-bddc-d39be5cc8762" name="Changes" comment="Homework 8.&#10;2/3" />
+    <list default="true" id="7f765e00-1775-4cac-bddc-d39be5cc8762" name="Changes" comment="Homework 8.&#10;2/3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_8/task_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_8/task_3.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +55,7 @@
     &quot;Python.draft_5.executor&quot;: &quot;Run&quot;,
     &quot;Python.draft_task_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.draft_task_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.draft_task_3.executor&quot;: &quot;Run&quot;,
     &quot;Python.draft_task_star.executor&quot;: &quot;Run&quot;,
     &quot;Python.task1.executor&quot;: &quot;Run&quot;,
     &quot;Python.task2.executor&quot;: &quot;Run&quot;,
@@ -382,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763908784541</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Homework 8.&#10;2/3">
+      <option name="closed" value="true" />
+      <created>1763909087209</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1763909087209</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

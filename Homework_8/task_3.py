@@ -8,7 +8,12 @@
 
 
 # Здесь пишем код
-
+def segment(a, b):
+    try:
+        s = a[0] + a[1] + b[0] + b[1]
+        return s
+    except Exception as e:
+        return str(e)[::-1]
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
 
