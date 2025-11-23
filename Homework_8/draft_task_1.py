@@ -1,3 +1,6 @@
+# Можно улучшить:
+# 1. Добавить инпут, а потом создать из этого кортеж
+
 def treatment_sum(our_tuple):
     try:
         if len(our_tuple) > 2:
@@ -9,4 +12,3 @@ def treatment_sum(our_tuple):
     except IndexError:
         return 'Недостаточно данных'
 
-print(treatment_sum((1, 2, 4)))
