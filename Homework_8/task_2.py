@@ -25,9 +25,9 @@ class Trigon:
             if not isinstance(i, int):
                 raise TypeError ('Стороны должны быть числами')
         for i in cathetus:
-            if i == 0 or i <= 0:
+            if i <= 0:
                 raise ValueError ('Стороны должны быть положительными')
-        if cathetus[0] >= cathetus[1] + cathetus[2] or cathetus[1] >= cathetus[0] + cathetus[2] or cathetus[2] >= cathetus[1] + cathetus[0]:
+        if max(cathetus) >= sum(cathetus) - max(cathetus):
             raise Exception ('Не треугольник')
         self.cathetus = cathetus
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
