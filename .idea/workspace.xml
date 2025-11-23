@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7f765e00-1775-4cac-bddc-d39be5cc8762" name="Changes" comment="Homework 8.&#10;3/3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_9/draft_task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_9/draft_task_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_9/task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_9/task_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_9/test_file/task1_answer.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,41 +45,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests in task_1.py.executor": "Run",
-    "Python tests.Python tests in task_2.py.executor": "Run",
-    "Python.DRAFT.executor": "Run",
-    "Python.draft.executor": "Run",
-    "Python.draft2.executor": "Run",
-    "Python.draft3.executor": "Run",
-    "Python.draft_5.executor": "Run",
-    "Python.draft_task_1.executor": "Run",
-    "Python.draft_task_2.executor": "Run",
-    "Python.draft_task_3.executor": "Run",
-    "Python.draft_task_star.executor": "Run",
-    "Python.task1.executor": "Run",
-    "Python.task2.executor": "Run",
-    "Python.task3.executor": "Debug",
-    "Python.task3_ver2.executor": "Run",
-    "Python.task4.executor": "Run",
-    "Python.task5.executor": "Run",
-    "Python.task5_2.executor": "Run",
-    "Python.task6.executor": "Run",
-    "Python.task7.executor": "Run",
-    "Python.task_1.executor": "Run",
-    "Python.task_2.executor": "Run",
-    "Python.task_3.executor": "Run",
-    "Python.task_4.executor": "Run",
-    "Python.task_with_star.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Autotest/Homework/Homework_9/test_file",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in task_1.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in task_2.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DRAFT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.draft.executor&quot;: &quot;Run&quot;,
+    &quot;Python.draft2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.draft3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.draft_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.draft_task_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.draft_task_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.draft_task_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.draft_task_star.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.task3_ver2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task5_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_with_star.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Autotest/Homework/Homework_9/test_file&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Autotest\Homework\Homework_9\test_file" />
@@ -409,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763917186170</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Homework 8.&#10;3/3">
+      <option name="closed" value="true" />
+      <created>1763922369806</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1763922369806</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
