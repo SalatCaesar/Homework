@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f765e00-1775-4cac-bddc-d39be5cc8762" name="Changes" comment="Homework 9.&#10;1/3">
-      <change beforePath="$PROJECT_DIR$/Homework_9/draft_task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_9/draft_task_3.py" afterDir="false" />
+    <list default="true" id="7f765e00-1775-4cac-bddc-d39be5cc8762" name="Changes" comment="Homework 9.&#10;2/3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
     &quot;Python.draft_task_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.draft_task_2.executor&quot;: &quot;Run&quot;,
     &quot;Python.draft_task_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.draft_task_4.executor&quot;: &quot;Run&quot;,
     &quot;Python.draft_task_star.executor&quot;: &quot;Run&quot;,
     &quot;Python.task1.executor&quot;: &quot;Run&quot;,
     &quot;Python.task2.executor&quot;: &quot;Run&quot;,
@@ -441,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764365726918</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Homework 9.&#10;2/3">
+      <option name="closed" value="true" />
+      <created>1764365775687</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1764365775687</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -460,6 +469,18 @@
     <MESSAGE value="Homework 8.&#10;2/3" />
     <MESSAGE value="Homework 8.&#10;3/3" />
     <MESSAGE value="Homework 9.&#10;1/3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 9.&#10;1/3" />
+    <MESSAGE value="Homework 9.&#10;2/3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 9.&#10;2/3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Homework_9/draft_task_4.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
