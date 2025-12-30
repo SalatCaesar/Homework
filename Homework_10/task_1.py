@@ -22,3 +22,4 @@ def generate_random_name():
     while True:
         yield ''.join(random.choices(string.ascii_lowercase, k=random.randint(1, 15))) + ' ' + ''.join(random.choices(string.ascii_lowercase, k=random.randint(1, 15)))
 gen = generate_random_name()
+print(next(gen))
