@@ -12,7 +12,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver import ActionChains, Keys  # C Keys роще авторизоваться оказалось, хотя и всего минус 4 строки кода
 
-browser = webdriver.Chrome()  # Открываем браузер
+
 site_fix = "https://fix-online.saby.ru/"  # Здесь записываем адрес сайта
 saby_dialogs = "https://fix-online.saby.ru/page/dialogs"  # Здесь записываем адрес реестра контактов
 user_login, user_password = 'Strutandol', 'пароль123'  # Логин/пароль для авторизации
@@ -20,6 +20,8 @@ user_name = 'Струтынский Андрей Олегович'  # Польз
 text_msg = ''.join(random.choices(string.ascii_lowercase, k=random.randint(5, 15))) # Текст сообщения. Я хотел добавить обычный текст, но тогда возможна ситуация,
                                                                                           # что, раз не удалившись, сообщение останется в реестре. А это позволит
                                                                                           # не перепутать старое с новым т.к. ищу я его через текст сообщения
+
+browser = webdriver.Chrome()  # Открываем браузер
 
 try:
     # Открываем на весь экран, а то замучался вглядываться, и переходим на сайт

@@ -10,9 +10,10 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-browser = webdriver.Chrome()
-site_saby = "https://saby.ru/"
-saby_more = "https://tensor.ru/about"
+site_saby = "https://saby.ru/"  # Адрес сайта
+saby_more = "https://tensor.ru/about"  # Адрес сайта подробнее у баннера сила в людях
+
+browser = webdriver.Chrome()  # Открываем браузер
 
 try:
     # Преходим в полноэкранный режим и переходим по адресу сайта
