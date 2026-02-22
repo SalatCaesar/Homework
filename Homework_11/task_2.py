@@ -34,29 +34,29 @@ try:
     login.send_keys(user_login, Keys.ENTER)
     password = browser.find_element(By.CSS_SELECTOR, '.controls-Password__nativeField_caretFilled')
     password.send_keys(user_password, Keys.ENTER)
-    time.sleep(2)  # Ждём загрузки, а то тормозит
+    time.sleep(3)  # Ждём загрузки, а то тормозит
 
     # Переходим в реестр контактов
     browser.get(saby_dialogs)
-    time.sleep(2)  # Ждём загрузки, а то тормозит
+    time.sleep(3)  # Ждём загрузки, а то тормозит
 
     # Открываем диалог сообщений по плюсу в реестре
     new_msg = browser.find_element(By.CSS_SELECTOR, 'span[class="controls-icon_size-m  extControls-addButton-icon-brand icon-RoundPlus controls-icon"]')
     new_msg.click()
-    time.sleep(2)  # Ждём загрузки, а то тормозит
+    time.sleep(3)  # Ждём загрузки, а то тормозит
 
     # Найдем пользователя через поиск, выберем его для отправки сообщения
     search_user = browser.find_element(By.CSS_SELECTOR, '.controls-Search__nativeField_caretEmpty_theme_default')
     search_user.send_keys(user_name)
-    time.sleep(1)  # Ждём загрузки, а то тормозит
+    time.sleep(2)  # Ждём загрузки, а то тормозит
     strut = browser.find_element(By.CSS_SELECTOR, 'span[title="Струтынский Андрей Олегович"]')
     strut.click()
-    time.sleep(1)  # Ждём загрузки, а то тормозит
+    time.sleep(2)  # Ждём загрузки, а то тормозит
 
     # Найдём поле для ввода текста и введём туда случайное сообщение, а после отправим сообщение нажатием CONTROL + Enter
     text = browser.find_element(By.CSS_SELECTOR, 'div[class="textEditor_slate_Field textEditor_slate_Container textEditor__textField"]')
     text.send_keys(text_msg, Keys.CONTROL + Keys.ENTER)
-    time.sleep(1)  # Ждём загрузки, а то тормозит
+    time.sleep(2)  # Ждём загрузки, а то тормозит
 
     # Проверяю отображение сообщения в реестре. Из-за сгенерированного случайного текста точно могу найти его через XPath
     text_2 = browser.find_element(By.XPATH, f'//p[text()="{text_msg}"]')
@@ -68,7 +68,7 @@ try:
     action.perform()
     del_msg = browser.find_element(By.CSS_SELECTOR, 'span[class="controls-icon_size-m controls-icon_style-danger controls-Menu__icon controls-Menu__icon_m-left icon-Erase controls-icon"]')
     del_msg.click()
-    time.sleep(1)  # Ждём загрузки, а то тормозит
+    time.sleep(2)  # Ждём загрузки, а то тормозит
 
     # Проверяем, осталось ли сообщение в реестре. Проверяем, что нет сообщений с введенным ранее текстом.
     # Как раз тут могла сломаться логика, если бы сообщение было не уникальным
