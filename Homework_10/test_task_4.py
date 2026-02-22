@@ -3,7 +3,7 @@
 # 2) Фикстуру для конкретного теста и используйте её не для всех тестов. Например, время выполнения теста.
 
 import pytest
-from task_2 import all_division
+from test_task_2 import all_division
 
 
 @pytest.mark.usefixtures('data_class')
